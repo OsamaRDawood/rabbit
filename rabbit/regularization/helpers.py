@@ -3,6 +3,8 @@ from rabbit import common
 # dictionary with class name and the corresponding filename where it is defined
 baseline_regularizations = {
     "SVD": "svd",
+    "SVDNonUniform": "svd_nonuniform",
+    "SVDSpinOnly": "svd_spin_only",
 }
 
 

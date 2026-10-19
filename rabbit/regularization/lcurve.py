@@ -88,7 +88,7 @@ def compute_curvature(fitter):
     return _compute_curvature(fitter)
 
 
-def l_curve_scan_tau(fitter, min=1.7, max=2.1, step=0.1):
+def l_curve_scan_tau(fitter, min=-0.0, max=5.1, step=0.1):
     tau0 = fitter.tau.numpy()
 
     curvatures = []
